@@ -1,0 +1,27 @@
+body {
+  background-color: #f4f6f8;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.form-card {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.form-select:disabled,
+.form-control:disabled {
+  cursor: not-allowed;
+}
+
+#cp.is-loading {
+  background-image: none;
+}
